@@ -1,0 +1,201 @@
+/* Menu */
+.menu{
+    background-color: #131212;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Pagina inicial */
+
+.container-home{
+    background-image: url(../img/fundo-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    padding: 15px 0;
+    justify-content: center;
+}
+.banner{    
+    width: 70%; 
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;       
+}
+
+.text-apresentacao{
+    color: #fff;   
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 40px; 
+    line-height: 40px;   
+   
+}
+.banner img{
+    margin-right: 40px;
+    margin-top: 60px;
+    
+}
+/* Pagina sobre */
+.item-menu{
+    margin-top: 100px;
+    padding: 60px 0 0 0;
+}
+
+.item-menu h2{
+    color: #403D3D;  
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.item-menu p{
+    color: #131310;   
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: bold;   
+    line-height: 30px;
+    margin: 20px 0;
+}
+.item-disciplinas{    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item-disciplinas  div{
+    color: #ffff;   
+    background: rgb(27, 27, 27);
+    padding: 0 10px;
+    margin: 20px;    
+    width: 320px;
+    height: 300px;
+}
+.item-disciplinas p{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+.botao-veja_mais{
+    padding: 5px;
+    margin: 8px 0;
+    background: #FF5A5F;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.botao-veja_mais:hover{
+    background:#fa7d81 ;
+    transition: all 0.5s;
+}
+
+/* Pagina de projetos */
+.container{
+    max-width: 1280px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+.item-projetos{    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item-projetos  div{
+    color: #ffff;   
+    background: rgb(66, 66, 66);
+    padding: 0 10px;
+    margin: 20px;    
+    width: 320px;
+    height: 380px;
+   
+}
+.item-projetos p{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+/* Pagina de contato */
+.contato{
+	width: 980px;
+	margin: 0 auto;
+	display: block;
+}
+.contato li{
+	color: #777777;
+	font: 400 16px/1.8 Lato, sans-serif;
+	margin: 0 0 5px 0;
+}
+.mensagem{
+	width: 980px;
+	margin: 0 auto;
+}
+.mensagem h2{
+    color: #464646;
+    font-size: 14px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mensagem input{
+	padding: 10px;
+	width: 40%;	
+	margin: 20px 0px;
+}
+.mensagem textarea{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 80%;
+}
+.enviar{
+	padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid transparent;  
+}
+.enviar:hover{
+	background:#FFFFFF;
+	color: #000000;
+	border: 1px solid black;
+    transition: all 0.5s;
+}
+/* Rodape */
+.rodape{
+    background-color: #2D2E2F;    
+    padding: 20px 0;   
+}
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;    
+    color: #ffff; 
+}

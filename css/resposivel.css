@@ -1,0 +1,184 @@
+@media screen and (max-width: 375px) {
+    /* Página inicial */
+    .menu{
+        width: 360px;       
+        position: fixed;
+    }
+    .menu ul{
+        padding: 10px;       
+    }
+    .menu ul li a{
+        font-size: 12px;
+        margin: 0 5px ;
+    }
+    .banner {   
+        width: 360px; 
+        text-align: center        
+    }
+    .banner img{
+        height: 200px;
+        margin-top: 40px;        
+    }
+    .text-apresentacao{           
+        font-size: 14px;
+        margin: 0 0 0 20px; 
+        line-height: 18px;
+        text-align: center ;
+    }
+    /*  Sobre */
+    .item-menu p{
+        font-size: 18px;   
+        line-height: 20px;
+        margin: 20px 0;
+        text-align: justify;
+    }
+    /* Contato */
+    .contato li{
+        margin: 10px 10px 0 10px;
+    }
+    .mensagem h2{
+        margin: 10px 10px 0 10px;
+    }
+    .mensagem input{
+        display: block;
+        padding: 10px;
+        width: 20%;	
+        margin: 10px 10px 0 10px;
+        text-align: center;
+    }
+    .mensagem textarea{
+        display: block;        
+        width: 20%;
+        text-align: center;
+    }
+   
+    .rodape{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 411px){
+    /* Página inicial */
+    .menu{
+        width: 380px;       
+        position: fixed;
+    }
+    .menu ul{
+        display: flex;
+        padding: 10px;       
+    }
+    .menu ul li a{
+        font-size: 16px;
+        margin-left: 10px ;
+    }
+    .banner {   
+        width: 380px;
+        text-align: center        
+    }
+    .banner img{
+        height: 200px;
+        margin-top: 40px;        
+    }
+    .text-apresentacao{           
+        font-size: 14px;
+        margin: 0 0 0 20px; 
+        line-height: 18px;
+        text-align: center ;
+    }
+    /*  Sobre */
+    .item-menu p{
+        font-size: 18px;   
+        line-height: 20px;
+        margin: 20px 0;
+        text-align: justify;
+    }
+    /* Contato */
+    .contato li{
+        margin: 10px 10px 0 10px;
+    }
+    .mensagem h2{
+        margin: 10px 10px 0 10px;
+    }
+    .mensagem input{
+        display: block;
+        padding: 10px;
+        width: 30%;	
+        margin: 10px 10px 0 10px;
+        text-align: center;
+    }
+    .mensagem textarea{
+        display: block;        
+        width: 30%;
+        text-align: center;
+    }
+   
+    .rodape{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    /* Página inicial */
+    .menu{
+        width: 100%;       
+        position: fixed;
+    }
+    .menu ul{
+        display: flex;
+        padding: 10px;       
+    }
+    .menu ul li a{
+        font-size: 16px;
+        margin-left: 10px ;
+    }
+    .banner {   
+        width: 100%;
+        text-align: center        
+    }
+    .banner img{
+        height: 200px;
+        margin-top: 40px;        
+    }
+    .text-apresentacao{           
+        font-size: 14px;
+        margin: 0 0 0 20px; 
+        line-height: 18px;
+        text-align: center ;
+    }
+    /*  Sobre */
+    .item-menu p{
+        font-size: 18px;   
+        line-height: 20px;
+        margin: 20px 0;
+        text-align: justify;
+    }
+    /* Contato */
+    .contato li{
+        margin: 10px 10px 0 10px;
+    }
+    .mensagem h2{
+        margin: 10px 10px 0 10px;
+    }
+    .mensagem input{        
+        padding: 10px;
+        width: 30%;	
+        margin: 10px 10px 0 10px;
+        text-align: center;
+    }
+    .mensagem textarea{  
+        display: block;              
+        width: 30%;
+        text-align: center;
+        margin: 10px 10px 0 10px;
+    }
+   
+    .rodape{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 540px){
+    .mensagem input{        
+        display: block;
+        text-align: center;
+    }
+}
